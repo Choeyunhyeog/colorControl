@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="brightnessControl/brightnessControl.csproj" />
+  <Project Path="tests/brightnessControl.ServiceTests/brightnessControl.ServiceTests.csproj" />
+</Solution>
