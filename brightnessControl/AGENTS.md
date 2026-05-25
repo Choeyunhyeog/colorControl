@@ -36,6 +36,13 @@ dotnet build -o .\bin\BuildCheck
 - Prefer explicit logging for profile detection, display target selection, color profile application, verification, and restore behavior.
 - Do not silently swallow failures when applying or restoring display settings. Log enough detail for users to understand whether the app detected the game and whether Windows accepted the color change.
 
+## Development Log
+
+- Maintain the root-level `DEVELOPMENT_LOG.md` for user-visible feature additions, packaging changes, release-facing behavior changes, and important project decisions.
+- When adding a feature, add a dated Markdown entry that summarizes what changed, why it matters to users, and any notable limitations or follow-up work.
+- Keep entries concise and factual. Do not include secrets, personal paths, machine-specific data, or generated build output contents.
+- If a change is purely internal cleanup with no user-visible behavior or release impact, a development log entry is optional.
+
 ## Display And Color Behavior
 
 - Color profile application is sensitive to Windows display APIs, GPU drivers, HDR, and exclusive fullscreen games.

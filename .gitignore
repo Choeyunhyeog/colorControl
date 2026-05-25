@@ -22,6 +22,7 @@ packages/
 
 # Logs
 *.log
+DEVELOPMENT_LOG.md
 
 # OS files
 Thumbs.db
