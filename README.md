@@ -106,3 +106,9 @@ tests/
   brightnessControl.ServiceTests/
     Program.cs  Lightweight profile persistence tests
 ```
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
+
+Third-party and runtime notices are documented in [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt).

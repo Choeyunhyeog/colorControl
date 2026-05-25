@@ -1,0 +1,17 @@
+Third-Party Notices
+
+brightnessControl source code is licensed under the MIT License. See LICENSE.
+
+This project does not currently reference third-party NuGet packages.
+
+Binary distributions may include Microsoft .NET runtime and Windows Desktop
+runtime components when published as a self-contained application. Those
+components are provided by Microsoft under their respective license terms.
+
+The optional NVIDIA color path dynamically loads nvapi64.dll from the user's
+installed NVIDIA driver. This repository and its release artifacts do not
+include nvapi64.dll.
+
+NVIDIA, NVAPI, Windows, WPF, and .NET are trademarks or registered trademarks
+of their respective owners. Their names are used only to describe compatibility
+and runtime requirements.
